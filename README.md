@@ -2,10 +2,10 @@
 Basic template and instructions for running Taichi programs on the VACC 
 
 # Links
-- 1. [Docker Hub](https://hub.docker.com/)
-- 2. [Taichi](https://docs.taichi-lang.org/)
-- 3. [VACC knowledge base](https://www.uvm.edu/vacc/kb/knowledge-base/)
-- 4. [NVIDIA Grid Cloud Containers](https://catalog.ngc.nvidia.com/containers)
+- [Docker Hub](https://hub.docker.com/)
+- [Taichi](https://docs.taichi-lang.org/)
+- [VACC knowledge base](https://www.uvm.edu/vacc/kb/knowledge-base/)
+- [NVIDIA Grid Cloud Containers](https://catalog.ngc.nvidia.com/containers)
 
 
 # Running Taichi programs on the VACC
@@ -31,7 +31,9 @@ Here, you can just copy the .sif file from my (ktbielaw) user directory into you
 cp /users/k/t/ktbielaw/taichi-vacc-x11_latest.sif ~
 ```
 
-(I asked the VACC people if this can be stored in a common place that is not my user directory, waiting to hear back)
+There is another Markdown file in this directory if you want to know the details of building a custom Singularity container (as of 3/26/2024 that guide is still under construction)
+
+(I asked the VACC people if this pre-made Taichi container can be stored in a common place that is not my user directory, waiting to hear back)
 
 ## 2. Running a Taichi program
 From the VACC Knowledgebase: "Docker is not allowed on the VACC due to the security risks of running it in a multitenant environment. However, Singularity can interface with Docker repositories and run containers in most cases."
